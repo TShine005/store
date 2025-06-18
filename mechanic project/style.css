@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+}
+
+.engr{
+    display: flex;
+    margin-right: 100px;
+    width: 300px;
+    font-size: xx-large;
+    font-family : Helvetica Arial sans-serif;
+    text-align: start;
+    font-weight: 400;
+    color: rgb(8,102,255);
+}
+
+.login-container{
+     background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      width: 300px;
+}
+
+.login-container .h2{
+     text-align: center;
+      margin-bottom: 20px;
+}
+
+    .login-container button {
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .login-container button:hover {
+      background-color: rgb(244,13,108);
+    }
+    
+
+.input-login {
+    border-radius: 10px;
+    width: 250px;
+
+    height: 5vh;
+}
+.password_container{
+     position: relative;
+     width: 250px;
+}
+
+.password_container input{
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 10px;
+    border-radius: 10px;
+    height: 35px;
+}
+ .password-container {
+      position: relative;
+      width: 250px;
+    }
+
+    .password-container input {
+      width: 100%;
+      padding-right: 40px;
+      padding-left: 10px;
+      border-radius: 10px;
+      height: 35px;
+    }
+
+    .toggle-eye {
+      position: absolute;
+      left: 250px;
+      top: 65%;
+      align-items: center;
+      justify-content: center;
+      transform: translateY(-50%);
+      cursor: pointer;
+    }
+
+     .clock {
+      font-size: 48px;
+      font-weight: bold;
+      color: #333;
+    }  
+    .calender{
+        font-size: 45px;
+        font-weight: 500;
+        color: green;
+    } 
+    .spn-btn{
+        color: greenyellow;
+    }
